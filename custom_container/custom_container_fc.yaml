@@ -1,5 +1,5 @@
 parameter_defaults:
-  DockerCinderVolumeImage: <undercloud_ip>:8787/rhosp13/openstack-cinder-volume-hpe:latest
+  DockerCinderVolumeImage: <undercloud_full_hostname>:8787/rhosp-rhel8/openstack-cinder-volume-hpe:1.0
   CinderEnableIscsiBackend: false
   Debug: true
   ControllerExtraConfig:
